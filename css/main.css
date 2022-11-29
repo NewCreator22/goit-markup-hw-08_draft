@@ -126,14 +126,22 @@ body {
 .header-list {
   display: flex;
   gap: 50px;
-  display: none;
+}
+@media screen and (max-width: 768px) {
+  .header-list {
+    display: none;
+  }
 }
 
 .header-contact {
   display: flex;
   align-items: center;
   margin-left: auto;
-  display: none;
+}
+@media screen and (max-width: 768px) {
+  .header-contact {
+    display: none;
+  }
 }
 
 .header-navigation {
